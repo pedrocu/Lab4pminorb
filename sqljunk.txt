@@ -1,4 +1,4 @@
-
+create table
 select partner, reporter, sum(value) as value
 	from help.macmap
 	group by 1,2
